@@ -1,0 +1,88 @@
+{
+  "_comment": "Expected dependency tree for paket-groups-mixed-sources probe. Fields marked PLACEHOLDER must be substituted by the scan runner at comparison time. This probe validates that Mend UA correctly parses GROUP separators combined with non-NuGet source sections (GITHUB, GIT). A parser that stops at the first GROUP or only handles NUGET sections will miss dependencies from the Scripts and Tools groups.",
+  "updateType": "OVERRIDE",
+  "type": "UA",
+  "agent": "paket",
+  "agentVersion": "PLACEHOLDER",
+  "pluginVersion": "PLACEHOLDER",
+  "orgToken": "PLACEHOLDER",
+  "userKey": "PLACEHOLDER",
+  "timeStamp": 0,
+  "requesterEmail": "PLACEHOLDER",
+  "aggregateModules": false,
+  "preserveModuleStructure": true,
+  "extraProperties": {
+    "contributionsAvailable": "PLACEHOLDER",
+    "commitUrl": "PLACEHOLDER",
+    "gitHubInstallationId": "PLACEHOLDER",
+    "scmApplicationId": "PLACEHOLDER",
+    "branchName": "main",
+    "checkRunId": "PLACEHOLDER",
+    "userOrgToken": "PLACEHOLDER",
+    "commitId": "PLACEHOLDER",
+    "scmInstallationId": "PLACEHOLDER",
+    "repository": "paket-groups-mixed-sources",
+    "scaResults": "PLACEHOLDER"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["paket"],
+    "isPrivileged": false,
+    "scanMethod": {
+      "type": "UA"
+    }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "PLACEHOLDER",
+      "dependencies": [
+        {
+          "groupId": "",
+          "artifactId": "Newtonsoft.Json",
+          "version": "13.0.3",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Serilog",
+          "version": "3.1.1",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "NUGET",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "src/Chessie/ErrorHandling.fs",
+          "version": "1de397e9a95aba37ec9399c0eb7f83d851f43b01",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "GITHUB",
+          "dependencyFile": "paket.lock",
+          "children": null
+        },
+        {
+          "groupId": "",
+          "artifactId": "Chessie",
+          "version": "1de397e9a95aba37ec9399c0eb7f83d851f43b01",
+          "systemPath": "",
+          "optional": false,
+          "filename": "paket.lock",
+          "dependencyType": "GIT",
+          "dependencyFile": "paket.lock",
+          "children": null
+        }
+      ]
+    }
+  ]
+}

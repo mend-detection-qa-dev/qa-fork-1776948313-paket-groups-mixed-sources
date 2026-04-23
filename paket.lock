@@ -1,0 +1,14 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Newtonsoft.Json (13.0.3)
+    Serilog (3.1.1)
+
+GROUP Scripts
+GITHUB
+  remote: fsprojects/Chessie
+    src/Chessie/ErrorHandling.fs (1de397e9a95aba37ec9399c0eb7f83d851f43b01)
+
+GROUP Tools
+GIT
+  remote: https://github.com/fsprojects/Chessie.git
+    (master) - 1de397e9a95aba37ec9399c0eb7f83d851f43b01
